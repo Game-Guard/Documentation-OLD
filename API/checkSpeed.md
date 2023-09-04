@@ -15,9 +15,19 @@ local gameGuard = require(script.Parent.gameGuard)
 local Players = game:GetService("Players")
 
 Players.PlayerAdded:Connect(function(plr)
+    GameGuard:init(plr)
     local WalkSpeed = 16
-    gameGuard:checkSpeed(plr, WalkSpeed, function(result)
-        print(result) -- Will print true if the player is over the speed, vice-versa for if they are under the speed.
+    gameGuard:checkSpeed(plr, WalkSpeed, function(plrToCheck, state, detectionType, data)
+        print(plrToCheck) -- Prints the player who was detected.
+        print(state) -- Prints a boolean, true or false based on whether or not the player was detected.
+        print(detectionType) -- Will print "speed".
+        print(data) -- Returns data table:
+        -- {
+        --     ["mag"] = mag, -- The magnitude between newPos and prevPos.
+        --     ["calc"] = calculatedSpeed, -- The calculated speed.
+        --     ["prevPos"] = prevPos -- The previous position.
+        --     ["newPos"] = newPos -- The new position at the check.
+        -- }
     end)
 end)
 ```
