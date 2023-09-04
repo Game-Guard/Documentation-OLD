@@ -1,6 +1,6 @@
 # Check Jump Power
 
-# Parameters:
+## Parameters:
 
 | Parameter | Description                                                              | Type     |
 | --------- | ------------------------------------------------------------------------ | -------- |
@@ -8,7 +8,7 @@
 | jumpPower | The jump power value which Game Guard should detect.                     | Int      |
 | Result    | The function that will be called when Game Guard detects the jump power. | function |
 
-# Example Usage:
+## Example Usage:
 
 ```lua
 local gameGuard = require(script.Parent.GameGuard)

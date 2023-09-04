@@ -1,6 +1,6 @@
 # No Clip
 
-# Parameters:
+## Parameters:
 
 | Parameter         | Description                                           | Type     |
 |-------------------|-------------------------------------------------------|----------|
@@ -8,7 +8,7 @@
 | hitbox (optional) | The size of the hitbox, an optional parameter.        | Vector3  |
 | Result            | The function that will be called every frame.         | function |
 
-# Example Usage:
+## Example Usage:
 
 ```lua
 local gameGuard = require(script.Parent.GameGuard)

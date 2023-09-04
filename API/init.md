@@ -1,12 +1,12 @@
 # Initialize
 
-# Parameters:
+## Parameters:
 
 | Parameter | Description                                              | Type   |
 |-----------|----------------------------------------------------------|--------|
 | plr       | The player object in which to initialize Game Guard for. | Player |
 
-# Example Usage:
+## Example Usage:
 
 ```lua
 local gameGuard = require(script.Parent.GameGuard)
