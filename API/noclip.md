@@ -1,9 +1,11 @@
 # No Clip
 
+This function will allow you to check when a player is no clipping.
+
 ## Parameters:
 
 | Parameter         | Description                                           | Type     |
-|-------------------|-------------------------------------------------------|----------|
+| ----------------- | ----------------------------------------------------- | -------- |
 | plr               | The player in which to check if they are no clipping. | Player   |
 | hitbox (optional) | The size of the hitbox, an optional parameter.        | Vector3  |
 | Result            | The function that will be called every frame.         | function |
