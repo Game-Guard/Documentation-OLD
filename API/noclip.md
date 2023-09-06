@@ -12,8 +12,9 @@
 
 ```lua
 local gameGuard = require(script.Parent.GameGuard)
+local Players = game:GetService("Players")
 
-game.Players.PlayerAdded:Connect(function(plr)
+Players.PlayerAdded:Connect(function(plr)
     gameGuard:init(plr)
 
     gameGuard:noclip(plr, Vector3.new(1.5, 1.9, 0.8), function(plrToCheck, state, detectionType)

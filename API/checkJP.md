@@ -12,8 +12,9 @@
 
 ```lua
 local gameGuard = require(script.Parent.GameGuard)
+local Players = game:GetService("Players")
 
-game.Players.PlayerAdded:Connect(function(plr)
+Players.PlayerAdded:Connect(function(plr)
     gameGuard:init(plr)
 
     gameGuard:checkJP(plr, 50, function(plrToCheck, state, detectionType, data)

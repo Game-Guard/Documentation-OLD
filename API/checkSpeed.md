@@ -15,7 +15,7 @@ local gameGuard = require(script.Parent.gameGuard)
 local Players = game:GetService("Players")
 
 Players.PlayerAdded:Connect(function(plr)
-    GameGuard:init(plr)
+    gameGuard:init(plr)
     local WalkSpeed = 16
     gameGuard:checkSpeed(plr, WalkSpeed, function(plrToCheck, state, detectionType, data)
         print(plrToCheck) -- Prints the player who was detected.
