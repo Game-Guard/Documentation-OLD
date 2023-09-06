@@ -1,4 +1,5 @@
 # Removing No Clip Exclusions
+This function will allow you to add a players no clip exclusion parts.
 
 ## Parameters:
 

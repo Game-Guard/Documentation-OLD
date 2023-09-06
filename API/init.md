@@ -1,4 +1,5 @@
 # Initialization
+This function allows you to initialize Game Guard.
 
 ## Parameters:
 

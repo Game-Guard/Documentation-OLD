@@ -1,4 +1,5 @@
 # Checking Jump Power
+This function will allow you to check a players jump power.
 
 ## Parameters:
 

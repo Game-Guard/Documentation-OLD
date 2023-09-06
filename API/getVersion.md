@@ -1,4 +1,5 @@
 # Getting Version
+This function will allow you to retrieve Game Guards current version and tag.
 
 ## Parameters:
 

@@ -1,4 +1,5 @@
 # Checking Speed
+This function will allow you to check a players speed.
 
 ## Parameters:
 
