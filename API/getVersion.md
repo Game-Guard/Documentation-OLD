@@ -1,4 +1,4 @@
-# Get Version
+# Getting Version
 
 ## Parameters:
 

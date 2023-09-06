@@ -1,4 +1,4 @@
-# No Clip Exclusions
+# Removing No Clip Exclusions
 
 ## Parameters:
 

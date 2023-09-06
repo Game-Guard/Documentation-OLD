@@ -1,4 +1,4 @@
-# Check Jump Power
+# Checking Jump Power
 
 ## Parameters:
 

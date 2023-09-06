@@ -1,4 +1,4 @@
-# Check Speed
+# Checking Speed
 
 ## Parameters:
 

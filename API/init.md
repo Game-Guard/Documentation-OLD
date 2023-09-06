@@ -1,4 +1,4 @@
-# Initialize
+# Initialization
 
 ## Parameters:
 
