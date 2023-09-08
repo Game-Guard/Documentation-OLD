@@ -1,5 +1,4 @@
 # No Clip
-
 This function will allow you to check when a player is no clipping.
 
 ## Parameters:

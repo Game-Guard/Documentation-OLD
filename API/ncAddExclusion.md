@@ -1,4 +1,4 @@
-# Removing No Clip Exclusions
+# Adding No Clip Exclusions
 This function will allow you to add a players no clip exclusion parts.
 
 ## Parameters:
@@ -16,6 +16,6 @@ local Players = game:GetService("Players")
 
 Players.PlayerAdded:Connect(function(plr)
     gameGuard:init(plr)
-    gameGuard:ncAddExclusion(player, Workspace:WaitForChild("Exclude")) -- Will not exclude part in workspace called "Exclude".
+    gameGuard:ncAddExclusion(player, Workspace:WaitForChild("Exclude")) -- Will exclude part in workspace called "Exclude".
 end)
 ```
