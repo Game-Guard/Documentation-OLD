@@ -12,5 +12,7 @@
   * [Ignoring Next Check](api/ignoreNextCheck.md)
   * [Renaming Services](api/renameServices.md)
   * [Getting Version](api/getVersion.md)
+  * [Enums](api/enums/README.md)
+    * [Ignore Next](api/enums/ignoreNext.md)
 * [Examples](examples/README.md)
   * [Game Example](examples/gameExample.md)
