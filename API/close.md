@@ -17,4 +17,3 @@ Players.PlayerRemoving:Connect(function(plr)
     gameGuard:close(plr)
 end)
 ```
-# test
